@@ -1,0 +1,20 @@
+aliyun:
+  oss:
+    # 是否启用OSS
+    enabled: true
+    # 阿里云OSS访问端点
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    # 阿里云OSS访问密钥ID
+    access-key-id: ${OSS_ACCESS_KEY_ID}
+    # 阿里云OSS访问密钥Secret
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET}
+    # 阿里云OSS存储桶名称
+    bucket-name: ${OSS_BUCKET_NAME}
+    # 默认文件夹路径
+    default-folder: uploads
+    # 连接超时时间（毫秒）
+    connection-timeout: 30000
+    # 请求超时时间（毫秒）
+    request-timeout: 60000
+    # 最大连接数
+    max-connections: 200

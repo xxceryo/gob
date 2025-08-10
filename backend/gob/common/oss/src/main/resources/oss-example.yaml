@@ -1,0 +1,78 @@
+# OSS配置示例文件
+# 复制此文件并根据实际环境修改配置
+
+# 开发环境配置
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+aliyun:
+  oss:
+    enabled: true
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: dev-access-key-id
+    access-key-secret: dev-access-key-secret
+    bucket-name: dev-bucket-name
+    default-folder: dev-uploads
+    connection-timeout: 30000
+    request-timeout: 60000
+    max-connections: 100
+
+# 测试环境配置
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+aliyun:
+  oss:
+    enabled: true
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: test-access-key-id
+    access-key-secret: test-access-key-secret
+    bucket-name: test-bucket-name
+    default-folder: test-uploads
+    connection-timeout: 30000
+    request-timeout: 60000
+    max-connections: 150
+
+# 生产环境配置
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+aliyun:
+  oss:
+    enabled: true
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: ${OSS_ACCESS_KEY_ID}
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET}
+    bucket-name: ${OSS_BUCKET_NAME}
+    default-folder: uploads
+    connection-timeout: 30000
+    request-timeout: 60000
+    max-connections: 200
+
+# 本地开发配置（使用环境变量）
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+aliyun:
+  oss:
+    enabled: true
+    endpoint: ${OSS_ENDPOINT:oss-cn-hangzhou.aliyuncs.com}
+    access-key-id: ${OSS_ACCESS_KEY_ID:local-access-key-id}
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET:local-access-key-secret}
+    bucket-name: ${OSS_BUCKET_NAME:local-bucket-name}
+    default-folder: local-uploads
+    connection-timeout: 30000
+    request-timeout: 60000
+    max-connections: 50
