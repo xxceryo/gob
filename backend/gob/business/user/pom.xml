@@ -19,6 +19,20 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.haohaoxuexi</groupId>
+            <artifactId>saToken</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.haohaoxuexi</groupId>
+            <artifactId>rpc</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
+
+
 
 
 

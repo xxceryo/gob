@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/src/main/resources" charset="UTF-8" />
@@ -9,12 +10,18 @@
     <file url="file://$PROJECT_DIR$/common/base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/limiter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/lock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/mq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/oss/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/rpc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/saToken/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/tcc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />

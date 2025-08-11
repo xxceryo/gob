@@ -1,0 +1,10 @@
+spring:
+  xxl:
+    job:
+      enabled: true
+      # 控制台的地址
+      adminAddresses: http://${nft.turbo.xxl-job.url}/xxl-job-admin/
+      # appName: 要和新建的执行器的appName保持一致
+      appName: ${nft.turbo.xxl-job.appName}
+      accessToken: ${nft.turbo.xxl-job.accessToken}
+

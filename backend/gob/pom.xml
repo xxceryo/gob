@@ -16,6 +16,7 @@
         <module>gateway</module>
         <module>business</module>
         <module>test</module>
+        <module>bank</module>
     </modules>
 
     <properties>

@@ -17,6 +17,12 @@
         <module>oss</module>
         <module>rpc</module>
         <module>config</module>
+        <module>mq</module>
+        <module>job</module>
+        <module>file</module>
+        <module>limiter</module>
+        <module>tcc</module>
+        <module>datasource</module>
     </modules>
 
     <properties>
